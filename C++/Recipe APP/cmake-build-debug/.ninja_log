@@ -1,0 +1,19 @@
+# ninja log v5
+6	402	1694787254915606133	CMakeFiles/Obiektowe.dir/Kolacja.cpp.o	ed7e315b04be7c06
+6	403	1694787254917511630	CMakeFiles/Obiektowe.dir/Obiad.cpp.o	b66ab17799f7348c
+0	50	1694788413377214818	build.ninja	25e10c84ef08729d
+5	366	1694787254879512732	CMakeFiles/Obiektowe.dir/main.cpp.o	5cc24aee752aebc8
+5	403	1694787254916370798	CMakeFiles/Obiektowe.dir/Sniadanie.cpp.o	eae3a8e54adb0cf8
+403	449	1694787254965055305	Obiektowe	61490ef7876fafc5
+6	269	1694787254778000684	CMakeFiles/Obiektowe.dir/Oceny.cpp.o	7bb0631b5605df1b
+4	211	1694788418171377922	CMakeFiles/Obiektowe.dir/Oceny.cpp.o	b043bb7efdb46d71
+3	327	1694788418287749514	CMakeFiles/Obiektowe.dir/main.cpp.o	653f76dc23c73855
+4	348	1694788418307978110	CMakeFiles/Obiektowe.dir/Kolacja.cpp.o	7fb5e475a0d790c0
+3	350	1694788418310743267	CMakeFiles/Obiektowe.dir/Sniadanie.cpp.o	8f05a9d7a59be0af
+4	353	1694788418313406841	CMakeFiles/Obiektowe.dir/Obiad.cpp.o	430983fd935a50ae
+353	384	1694788418346003561	Obiektowe	61490ef7876fafc5
+4	337	1694788485967302384	CMakeFiles/Obiektowe.dir/Obiad.cpp.o	430983fd935a50ae
+337	372	1694788486003681923	Obiektowe	61490ef7876fafc5
+5	341	1694788528350227788	CMakeFiles/Obiektowe.dir/Sniadanie.cpp.o	8f05a9d7a59be0af
+5	342	1694788528351823490	CMakeFiles/Obiektowe.dir/Kolacja.cpp.o	7fb5e475a0d790c0
+342	373	1694788528384452501	Obiektowe	61490ef7876fafc5

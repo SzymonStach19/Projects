@@ -1,0 +1,197 @@
+\doxysection{Kolacja Class Reference}
+\hypertarget{class_kolacja}{}\label{class_kolacja}\index{Kolacja@{Kolacja}}
+Inheritance diagram for Kolacja\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_kolacja}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_kolacja_ad88885a37f1460ddea417745c28b0ba7}{Kolacja}} (const string \&kategoria)
+\item 
+string \mbox{\hyperlink{class_kolacja_a2fbed835d3a5d2876dcbb3906188f3c4}{wyswietl\+Nazwy\+Przepisow}} ()
+\item 
+string \mbox{\hyperlink{class_kolacja_ac1b703f67a918ca4fd46d84ec85cc7ec}{wyswietl\+Nazwy\+Przypraw}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_kolacja_a89adbf9615031ca947be9c17d9b674d2}{wyswietl\+Nazwe\+Przepisu}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_kolacja_a733a15c45a39784f3bcc0b8bcd77e7e6}{wyswietl\+Ciekawostki}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_kolacja_a40e4a357812da15bf84328324366a3ef}{wyswietl\+Oceny\+Przepisu}} (int indeks, int wybor)
+\item 
+string \mbox{\hyperlink{class_kolacja_a2ddee5b06da508f142a7c883eddf66ae}{wyswietl\+Skladniki\+Przepisu}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_kolacja_ab4f31f3bd419113008546d4e2d1c3f54}{wyswietl\+Kroki\+Przepisu}} (int indeks, string decyzja, int numerkroku)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_kolacja_a55e71d712f908a69e4f42f58e493869e}\label{class_kolacja_a55e71d712f908a69e4f42f58e493869e} 
+vector$<$ \mbox{\hyperlink{class_przepis}{Przepis}} $>$ {\bfseries Lista\+Przepisow}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_kolacja_ad88885a37f1460ddea417745c28b0ba7}\label{class_kolacja_ad88885a37f1460ddea417745c28b0ba7} 
+\index{Kolacja@{Kolacja}!Kolacja@{Kolacja}}
+\index{Kolacja@{Kolacja}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{Kolacja()}{Kolacja()}}
+{\footnotesize\ttfamily Kolacja\+::\+Kolacja (\begin{DoxyParamCaption}\item[{const string \&}]{kategoria }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em kategoria} & \\
+\hline
+\end{DoxyParams}
+Konstruktor klasy \doxylink{class_kolacja}{Kolacja}, który przyjmuje nazwę kategorii jako argument. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_kolacja_a733a15c45a39784f3bcc0b8bcd77e7e6}\label{class_kolacja_a733a15c45a39784f3bcc0b8bcd77e7e6} 
+\index{Kolacja@{Kolacja}!wyswietlCiekawostki@{wyswietlCiekawostki}}
+\index{wyswietlCiekawostki@{wyswietlCiekawostki}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{wyswietlCiekawostki()}{wyswietlCiekawostki()}}
+{\footnotesize\ttfamily string Kolacja\+::wyswietl\+Ciekawostki (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ciekawostki dotyczące danego przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a778f90c4b6cb4aa27625496465c8c358}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_kolacja_ab4f31f3bd419113008546d4e2d1c3f54}\label{class_kolacja_ab4f31f3bd419113008546d4e2d1c3f54} 
+\index{Kolacja@{Kolacja}!wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}}
+\index{wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{wyswietlKrokiPrzepisu()}{wyswietlKrokiPrzepisu()}}
+{\footnotesize\ttfamily string Kolacja\+::wyswietl\+Kroki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{string}]{decyzja,  }\item[{int}]{numerkroku }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca kroki przygotowania przepisu na podstawie indeksu, decyzji i numeru kroku.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks \\
+\hline
+{\em string} & decyzja \\
+\hline
+{\em int} & numerkroku\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_ad25c2d0d9e1b64c17649e6f384b76554}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_kolacja_a89adbf9615031ca947be9c17d9b674d2}\label{class_kolacja_a89adbf9615031ca947be9c17d9b674d2} 
+\index{Kolacja@{Kolacja}!wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}}
+\index{wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwePrzepisu()}{wyswietlNazwePrzepisu()}}
+{\footnotesize\ttfamily string Kolacja\+::wyswietl\+Nazwe\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca nazwę przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_aabc626df6f2443d4b8e514b5e08252c5}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_kolacja_a2fbed835d3a5d2876dcbb3906188f3c4}\label{class_kolacja_a2fbed835d3a5d2876dcbb3906188f3c4} 
+\index{Kolacja@{Kolacja}!wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}}
+\index{wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzepisow()}{wyswietlNazwyPrzepisow()}}
+{\footnotesize\ttfamily string Kolacja\+::wyswietl\+Nazwy\+Przepisow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ciąg znaków zawierający nazwy przepisów.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_aef6f11fbdd415c79bbbd74cc53096ae2}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_kolacja_ac1b703f67a918ca4fd46d84ec85cc7ec}\label{class_kolacja_ac1b703f67a918ca4fd46d84ec85cc7ec} 
+\index{Kolacja@{Kolacja}!wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}}
+\index{wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzypraw()}{wyswietlNazwyPrzypraw()}}
+{\footnotesize\ttfamily string Kolacja\+::wyswietl\+Nazwy\+Przypraw (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+Metoda, która zwraca nazwy przypraw dla danego przepisu na podstawie indeksu.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_ac3c95277ae4341cd906d9574f5e031c1}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_kolacja_a40e4a357812da15bf84328324366a3ef}\label{class_kolacja_a40e4a357812da15bf84328324366a3ef} 
+\index{Kolacja@{Kolacja}!wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}}
+\index{wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{wyswietlOcenyPrzepisu()}{wyswietlOcenyPrzepisu()}}
+{\footnotesize\ttfamily string Kolacja\+::wyswietl\+Oceny\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{int}]{wybor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ocenę przepisu na podstawie indeksu i wyboru.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks \\
+\hline
+{\em int} & wybor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a51324407194d35643a475f5de877dd44}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_kolacja_a2ddee5b06da508f142a7c883eddf66ae}\label{class_kolacja_a2ddee5b06da508f142a7c883eddf66ae} 
+\index{Kolacja@{Kolacja}!wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}}
+\index{wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}!Kolacja@{Kolacja}}
+\doxysubsubsection{\texorpdfstring{wyswietlSkladnikiPrzepisu()}{wyswietlSkladnikiPrzepisu()}}
+{\footnotesize\ttfamily string Kolacja\+::wyswietl\+Skladniki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca składniki danego przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a3422ee3609f9e86de45bcbff714d8fca}{Abstrakt\+Kategoria}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_kolacja_8h}{Kolacja.\+h}}\item 
+Kolacja.\+cpp\end{DoxyCompactItemize}

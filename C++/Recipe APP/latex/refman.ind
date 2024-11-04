@@ -1,0 +1,93 @@
+\begin{theindex}
+
+  \item {AbstraktKategoria}, \hyperpage{7}
+    \subitem {wyswietlCiekawostki}, \hyperpage{7}
+    \subitem {wyswietlKrokiPrzepisu}, \hyperpage{8}
+    \subitem {wyswietlNazwePrzepisu}, \hyperpage{8}
+    \subitem {wyswietlNazwyPrzepisow}, \hyperpage{9}
+    \subitem {wyswietlNazwyPrzypraw}, \hyperpage{9}
+    \subitem {wyswietlOcenyPrzepisu}, \hyperpage{9}
+    \subitem {wyswietlSkladnikiPrzepisu}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Kolacja}, \hyperpage{10}
+    \subitem {Kolacja}, \hyperpage{11}
+    \subitem {wyswietlCiekawostki}, \hyperpage{11}
+    \subitem {wyswietlKrokiPrzepisu}, \hyperpage{11}
+    \subitem {wyswietlNazwePrzepisu}, \hyperpage{12}
+    \subitem {wyswietlNazwyPrzepisow}, \hyperpage{12}
+    \subitem {wyswietlNazwyPrzypraw}, \hyperpage{12}
+    \subitem {wyswietlOcenyPrzepisu}, \hyperpage{14}
+    \subitem {wyswietlSkladnikiPrzepisu}, \hyperpage{14}
+  \item {Kolacja.h}, \hyperpage{23}
+
+  \indexspace
+
+  \item {Obiad}, \hyperpage{15}
+    \subitem {Obiad}, \hyperpage{15}
+    \subitem {wyswietlCiekawostki}, \hyperpage{15}
+    \subitem {wyswietlKrokiPrzepisu}, \hyperpage{16}
+    \subitem {wyswietlNazwePrzepisu}, \hyperpage{16}
+    \subitem {wyswietlNazwyPrzepisow}, \hyperpage{17}
+    \subitem {wyswietlNazwyPrzypraw}, \hyperpage{17}
+    \subitem {wyswietlOcenyPrzepisu}, \hyperpage{17}
+    \subitem {wyswietlSkladnikiPrzepisu}, \hyperpage{18}
+  \item {Obiad.h}, \hyperpage{24}
+
+  \indexspace
+
+  \item {Przepis}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Sniadanie}, \hyperpage{19}
+    \subitem {Sniadanie}, \hyperpage{19}
+    \subitem {wyswietlCiekawostki}, \hyperpage{20}
+    \subitem {wyswietlKrokiPrzepisu}, \hyperpage{20}
+    \subitem {wyswietlNazwePrzepisu}, \hyperpage{20}
+    \subitem {wyswietlNazwyPrzepisow}, \hyperpage{21}
+    \subitem {wyswietlNazwyPrzypraw}, \hyperpage{21}
+    \subitem {wyswietlOcenyPrzepisu}, \hyperpage{21}
+    \subitem {wyswietlSkladnikiPrzepisu}, \hyperpage{22}
+  \item {Sniadanie.h}, \hyperpage{25}
+
+  \indexspace
+
+  \item {wyswietlCiekawostki}
+    \subitem {AbstraktKategoria}, \hyperpage{7}
+    \subitem {Kolacja}, \hyperpage{11}
+    \subitem {Obiad}, \hyperpage{15}
+    \subitem {Sniadanie}, \hyperpage{20}
+  \item {wyswietlKrokiPrzepisu}
+    \subitem {AbstraktKategoria}, \hyperpage{8}
+    \subitem {Kolacja}, \hyperpage{11}
+    \subitem {Obiad}, \hyperpage{16}
+    \subitem {Sniadanie}, \hyperpage{20}
+  \item {wyswietlNazwePrzepisu}
+    \subitem {AbstraktKategoria}, \hyperpage{8}
+    \subitem {Kolacja}, \hyperpage{12}
+    \subitem {Obiad}, \hyperpage{16}
+    \subitem {Sniadanie}, \hyperpage{20}
+  \item {wyswietlNazwyPrzepisow}
+    \subitem {AbstraktKategoria}, \hyperpage{9}
+    \subitem {Kolacja}, \hyperpage{12}
+    \subitem {Obiad}, \hyperpage{17}
+    \subitem {Sniadanie}, \hyperpage{21}
+  \item {wyswietlNazwyPrzypraw}
+    \subitem {AbstraktKategoria}, \hyperpage{9}
+    \subitem {Kolacja}, \hyperpage{12}
+    \subitem {Obiad}, \hyperpage{17}
+    \subitem {Sniadanie}, \hyperpage{21}
+  \item {wyswietlOcenyPrzepisu}
+    \subitem {AbstraktKategoria}, \hyperpage{9}
+    \subitem {Kolacja}, \hyperpage{14}
+    \subitem {Obiad}, \hyperpage{17}
+    \subitem {Sniadanie}, \hyperpage{21}
+  \item {wyswietlSkladnikiPrzepisu}
+    \subitem {AbstraktKategoria}, \hyperpage{10}
+    \subitem {Kolacja}, \hyperpage{14}
+    \subitem {Obiad}, \hyperpage{18}
+    \subitem {Sniadanie}, \hyperpage{22}
+
+\end{theindex}

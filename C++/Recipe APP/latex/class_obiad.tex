@@ -1,0 +1,199 @@
+\doxysection{Obiad Class Reference}
+\hypertarget{class_obiad}{}\label{class_obiad}\index{Obiad@{Obiad}}
+Inheritance diagram for Obiad\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_obiad}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obiad_a69579ef7350779d2a276b663b2391497}{Obiad}} (const string \&kategoria)
+\item 
+string \mbox{\hyperlink{class_obiad_ac63b554bb20d6b803d188e3812522543}{wyswietl\+Nazwy\+Przepisow}} ()
+\item 
+string \mbox{\hyperlink{class_obiad_a620381e466da928e8f50f7c8ea669691}{wyswietl\+Nazwy\+Przypraw}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_obiad_ad5da494133f0f7b8af371fe22bd9a0f1}{wyswietl\+Nazwe\+Przepisu}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_obiad_ad93a890a683ca89de97b91dd5225bed7}{wyswietl\+Ciekawostki}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_obiad_ae65b87a84b11e8ef2d49d189bdc8689d}{wyswietl\+Oceny\+Przepisu}} (int indeks, int wybor)
+\item 
+string \mbox{\hyperlink{class_obiad_a727b7977c8412fdcc1a16bb8f62c9fed}{wyswietl\+Skladniki\+Przepisu}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_obiad_a0f355b6b67584517a17ca42a6af6f223}{wyswietl\+Kroki\+Przepisu}} (int indeks, string decyzja, int numerkroku)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_obiad_a6624f3351bbb793513313685c2ec4540}\label{class_obiad_a6624f3351bbb793513313685c2ec4540} 
+vector$<$ \mbox{\hyperlink{class_przepis}{Przepis}} $>$ {\bfseries Lista\+Przepisow}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_obiad_a69579ef7350779d2a276b663b2391497}\label{class_obiad_a69579ef7350779d2a276b663b2391497} 
+\index{Obiad@{Obiad}!Obiad@{Obiad}}
+\index{Obiad@{Obiad}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{Obiad()}{Obiad()}}
+{\footnotesize\ttfamily Obiad\+::\+Obiad (\begin{DoxyParamCaption}\item[{const string \&}]{kategoria }\end{DoxyParamCaption})}
+
+Konstruktor klasy \doxylink{class_obiad}{Obiad}, który przyjmuje nazwę kategorii jako argument.
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & kategoria \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_obiad_ad93a890a683ca89de97b91dd5225bed7}\label{class_obiad_ad93a890a683ca89de97b91dd5225bed7} 
+\index{Obiad@{Obiad}!wyswietlCiekawostki@{wyswietlCiekawostki}}
+\index{wyswietlCiekawostki@{wyswietlCiekawostki}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{wyswietlCiekawostki()}{wyswietlCiekawostki()}}
+{\footnotesize\ttfamily string Obiad\+::wyswietl\+Ciekawostki (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ciekawostki dotyczące danego przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a778f90c4b6cb4aa27625496465c8c358}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_obiad_a0f355b6b67584517a17ca42a6af6f223}\label{class_obiad_a0f355b6b67584517a17ca42a6af6f223} 
+\index{Obiad@{Obiad}!wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}}
+\index{wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{wyswietlKrokiPrzepisu()}{wyswietlKrokiPrzepisu()}}
+{\footnotesize\ttfamily string Obiad\+::wyswietl\+Kroki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{string}]{decyzja,  }\item[{int}]{numerkroku }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca kroki przygotowania przepisu na podstawie indeksu, decyzji i numeru kroku.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks \\
+\hline
+{\em string} & decyzja \\
+\hline
+{\em int} & numerkroku\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_ad25c2d0d9e1b64c17649e6f384b76554}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_obiad_ad5da494133f0f7b8af371fe22bd9a0f1}\label{class_obiad_ad5da494133f0f7b8af371fe22bd9a0f1} 
+\index{Obiad@{Obiad}!wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}}
+\index{wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwePrzepisu()}{wyswietlNazwePrzepisu()}}
+{\footnotesize\ttfamily string Obiad\+::wyswietl\+Nazwe\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca nazwę przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_aabc626df6f2443d4b8e514b5e08252c5}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_obiad_ac63b554bb20d6b803d188e3812522543}\label{class_obiad_ac63b554bb20d6b803d188e3812522543} 
+\index{Obiad@{Obiad}!wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}}
+\index{wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzepisow()}{wyswietlNazwyPrzepisow()}}
+{\footnotesize\ttfamily string Obiad\+::wyswietl\+Nazwy\+Przepisow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ciąg znaków zawierający nazwy przepisów.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_aef6f11fbdd415c79bbbd74cc53096ae2}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_obiad_a620381e466da928e8f50f7c8ea669691}\label{class_obiad_a620381e466da928e8f50f7c8ea669691} 
+\index{Obiad@{Obiad}!wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}}
+\index{wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzypraw()}{wyswietlNazwyPrzypraw()}}
+{\footnotesize\ttfamily string Obiad\+::wyswietl\+Nazwy\+Przypraw (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+Metoda, która zwraca nazwy przypraw dla danego przepisu na podstawie indeksu.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_ac3c95277ae4341cd906d9574f5e031c1}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_obiad_ae65b87a84b11e8ef2d49d189bdc8689d}\label{class_obiad_ae65b87a84b11e8ef2d49d189bdc8689d} 
+\index{Obiad@{Obiad}!wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}}
+\index{wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{wyswietlOcenyPrzepisu()}{wyswietlOcenyPrzepisu()}}
+{\footnotesize\ttfamily string Obiad\+::wyswietl\+Oceny\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{int}]{wybor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ocenę przepisu na podstawie indeksu i wyboru.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks \\
+\hline
+{\em int} & wybor\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a51324407194d35643a475f5de877dd44}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_obiad_a727b7977c8412fdcc1a16bb8f62c9fed}\label{class_obiad_a727b7977c8412fdcc1a16bb8f62c9fed} 
+\index{Obiad@{Obiad}!wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}}
+\index{wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}!Obiad@{Obiad}}
+\doxysubsubsection{\texorpdfstring{wyswietlSkladnikiPrzepisu()}{wyswietlSkladnikiPrzepisu()}}
+{\footnotesize\ttfamily string Obiad\+::wyswietl\+Skladniki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca składniki danego przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a3422ee3609f9e86de45bcbff714d8fca}{Abstrakt\+Kategoria}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_obiad_8h}{Obiad.\+h}}\item 
+Obiad.\+cpp\end{DoxyCompactItemize}

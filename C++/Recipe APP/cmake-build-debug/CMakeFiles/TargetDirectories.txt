@@ -1,0 +1,3 @@
+/Users/szymon/Clion_Projekty/Projekt Końcowy nr. - Programowanie Komputerowe/cmake-build-debug/CMakeFiles/Obiektowe.dir
+/Users/szymon/Clion_Projekty/Projekt Końcowy nr. - Programowanie Komputerowe/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/szymon/Clion_Projekty/Projekt Końcowy nr. - Programowanie Komputerowe/cmake-build-debug/CMakeFiles/rebuild_cache.dir

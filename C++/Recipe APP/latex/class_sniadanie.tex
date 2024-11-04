@@ -1,0 +1,209 @@
+\doxysection{Sniadanie Class Reference}
+\hypertarget{class_sniadanie}{}\label{class_sniadanie}\index{Sniadanie@{Sniadanie}}
+
+
+Klasa reprezentująca \doxylink{class_sniadanie}{Sniadanie}, dziedziczy po \doxylink{class_abstrakt_kategoria}{Abstrakt\+Kategoria}.  
+
+
+
+
+{\ttfamily \#include $<$Sniadanie.\+h$>$}
+
+Inheritance diagram for Sniadanie\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_sniadanie}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sniadanie_a4380fa67998739cef1590aa201c00364}{Sniadanie}} (const string \&kategoria)
+\item 
+string \mbox{\hyperlink{class_sniadanie_adeb9152b98a3eb430a3b26732a6ff938}{wyswietl\+Nazwy\+Przepisow}} ()
+\item 
+string \mbox{\hyperlink{class_sniadanie_a00a7878631f33b0de94023c2162f2f95}{wyswietl\+Nazwy\+Przypraw}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_sniadanie_ac0e8cc33c953aafd60c6d50a615cef95}{wyswietl\+Nazwe\+Przepisu}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_sniadanie_a1680c14d2362506d96fc07c89123ca17}{wyswietl\+Ciekawostki}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_sniadanie_af8e21600134672c0efd41072f694ad1f}{wyswietl\+Oceny\+Przepisu}} (int indeks, int wybor)
+\item 
+string \mbox{\hyperlink{class_sniadanie_a353b0ad4f7425ab421e9671f8376ec0c}{wyswietl\+Skladniki\+Przepisu}} (int indeks)
+\item 
+string \mbox{\hyperlink{class_sniadanie_a6dbea50fac1905728946f0d9a9cdc3d9}{wyswietl\+Kroki\+Przepisu}} (int indeks, string decyzja, int numerkroku)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_sniadanie_a83297521090138722d60c0ce97e267c7}\label{class_sniadanie_a83297521090138722d60c0ce97e267c7} 
+vector$<$ \mbox{\hyperlink{class_przepis}{Przepis}} $>$ {\bfseries Lista\+Przepisow}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentująca \doxylink{class_sniadanie}{Sniadanie}, dziedziczy po \doxylink{class_abstrakt_kategoria}{Abstrakt\+Kategoria}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_sniadanie_a4380fa67998739cef1590aa201c00364}\label{class_sniadanie_a4380fa67998739cef1590aa201c00364} 
+\index{Sniadanie@{Sniadanie}!Sniadanie@{Sniadanie}}
+\index{Sniadanie@{Sniadanie}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{Sniadanie()}{Sniadanie()}}
+{\footnotesize\ttfamily Sniadanie\+::\+Sniadanie (\begin{DoxyParamCaption}\item[{const string \&}]{kategoria }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em kategoria} & \\
+\hline
+\end{DoxyParams}
+Konstruktor klasy \doxylink{class_sniadanie}{Sniadanie}, który przyjmuje nazwę kategorii jako argument. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_sniadanie_a1680c14d2362506d96fc07c89123ca17}\label{class_sniadanie_a1680c14d2362506d96fc07c89123ca17} 
+\index{Sniadanie@{Sniadanie}!wyswietlCiekawostki@{wyswietlCiekawostki}}
+\index{wyswietlCiekawostki@{wyswietlCiekawostki}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{wyswietlCiekawostki()}{wyswietlCiekawostki()}}
+{\footnotesize\ttfamily string Sniadanie\+::wyswietl\+Ciekawostki (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ciekawostki dotyczące danego przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & Indeks przepisu, dla którego mają być wyświetlone ciekawostki.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a778f90c4b6cb4aa27625496465c8c358}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_sniadanie_a6dbea50fac1905728946f0d9a9cdc3d9}\label{class_sniadanie_a6dbea50fac1905728946f0d9a9cdc3d9} 
+\index{Sniadanie@{Sniadanie}!wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}}
+\index{wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{wyswietlKrokiPrzepisu()}{wyswietlKrokiPrzepisu()}}
+{\footnotesize\ttfamily string Sniadanie\+::wyswietl\+Kroki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{string}]{decyzja,  }\item[{int}]{numerkroku }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca kroki przygotowania przepisu na podstawie indeksu, decyzji i numeru kroku.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+{\em string} & \\
+\hline
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_ad25c2d0d9e1b64c17649e6f384b76554}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_sniadanie_ac0e8cc33c953aafd60c6d50a615cef95}\label{class_sniadanie_ac0e8cc33c953aafd60c6d50a615cef95} 
+\index{Sniadanie@{Sniadanie}!wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}}
+\index{wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwePrzepisu()}{wyswietlNazwePrzepisu()}}
+{\footnotesize\ttfamily string Sniadanie\+::wyswietl\+Nazwe\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca nazwę przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_aabc626df6f2443d4b8e514b5e08252c5}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_sniadanie_adeb9152b98a3eb430a3b26732a6ff938}\label{class_sniadanie_adeb9152b98a3eb430a3b26732a6ff938} 
+\index{Sniadanie@{Sniadanie}!wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}}
+\index{wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzepisow()}{wyswietlNazwyPrzepisow()}}
+{\footnotesize\ttfamily string Sniadanie\+::wyswietl\+Nazwy\+Przepisow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ciąg znaków zawierający nazwy przepisów.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_aef6f11fbdd415c79bbbd74cc53096ae2}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_sniadanie_a00a7878631f33b0de94023c2162f2f95}\label{class_sniadanie_a00a7878631f33b0de94023c2162f2f95} 
+\index{Sniadanie@{Sniadanie}!wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}}
+\index{wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzypraw()}{wyswietlNazwyPrzypraw()}}
+{\footnotesize\ttfamily string Sniadanie\+::wyswietl\+Nazwy\+Przypraw (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+\end{DoxyParams}
+Metoda, która zwraca nazwy przypraw dla danego przepisu na podstawie indeksu.
+
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_ac3c95277ae4341cd906d9574f5e031c1}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_sniadanie_af8e21600134672c0efd41072f694ad1f}\label{class_sniadanie_af8e21600134672c0efd41072f694ad1f} 
+\index{Sniadanie@{Sniadanie}!wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}}
+\index{wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{wyswietlOcenyPrzepisu()}{wyswietlOcenyPrzepisu()}}
+{\footnotesize\ttfamily string Sniadanie\+::wyswietl\+Oceny\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{int}]{wybor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca ocenę przepisu na podstawie indeksu i wyboru.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & \\
+\hline
+{\em int} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a51324407194d35643a475f5de877dd44}{Abstrakt\+Kategoria}}.
+
+\Hypertarget{class_sniadanie_a353b0ad4f7425ab421e9671f8376ec0c}\label{class_sniadanie_a353b0ad4f7425ab421e9671f8376ec0c} 
+\index{Sniadanie@{Sniadanie}!wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}}
+\index{wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}!Sniadanie@{Sniadanie}}
+\doxysubsubsection{\texorpdfstring{wyswietlSkladnikiPrzepisu()}{wyswietlSkladnikiPrzepisu()}}
+{\footnotesize\ttfamily string Sniadanie\+::wyswietl\+Skladniki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda, która zwraca składniki danego przepisu na podstawie indeksu.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & Indeks przepisu, dla którego mają być wyświetlone składniki.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_abstrakt_kategoria_a3422ee3609f9e86de45bcbff714d8fca}{Abstrakt\+Kategoria}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_sniadanie_8h}{Sniadanie.\+h}}\item 
+Sniadanie.\+cpp\end{DoxyCompactItemize}

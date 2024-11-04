@@ -1,0 +1,202 @@
+\doxysection{Abstrakt\+Kategoria Class Reference}
+\hypertarget{class_abstrakt_kategoria}{}\label{class_abstrakt_kategoria}\index{AbstraktKategoria@{AbstraktKategoria}}
+Inheritance diagram for Abstrakt\+Kategoria\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_abstrakt_kategoria}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual string \mbox{\hyperlink{class_abstrakt_kategoria_aef6f11fbdd415c79bbbd74cc53096ae2}{wyswietl\+Nazwy\+Przepisow}} ()=0
+\begin{DoxyCompactList}\small\item\em Wirtualna funkcja zwracająca nazwy przepisów. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_abstrakt_kategoria_aabc626df6f2443d4b8e514b5e08252c5}{wyswietl\+Nazwe\+Przepisu}} (int indeks)=0
+\begin{DoxyCompactList}\small\item\em Wirtualna funkcja zwracająca nazwę przepisu na podstawie indeksu. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_abstrakt_kategoria_a778f90c4b6cb4aa27625496465c8c358}{wyswietl\+Ciekawostki}} (int indeks)=0
+\begin{DoxyCompactList}\small\item\em Wirtualna funkcja zwracająca ciekawostki o przepisie na podstawie indeksu. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_abstrakt_kategoria_a51324407194d35643a475f5de877dd44}{wyswietl\+Oceny\+Przepisu}} (int indeks, int wybor)=0
+\begin{DoxyCompactList}\small\item\em Wirtualna funkcja zwracająca oceny przepisu na podstawie indeksu i wyboru. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_abstrakt_kategoria_a3422ee3609f9e86de45bcbff714d8fca}{wyswietl\+Skladniki\+Przepisu}} (int indeks)=0
+\begin{DoxyCompactList}\small\item\em Wirtualna funkcja zwracająca składniki przepisu na podstawie indeksu. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_abstrakt_kategoria_ac3c95277ae4341cd906d9574f5e031c1}{wyswietl\+Nazwy\+Przypraw}} (int indeks)=0
+\begin{DoxyCompactList}\small\item\em Wirtualna funkcja zwracająca nazwy przypraw przepisu na podstawie indeksu. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_abstrakt_kategoria_ad25c2d0d9e1b64c17649e6f384b76554}{wyswietl\+Kroki\+Przepisu}} (int indeks, string decyzja, int numerkroku)=0
+\begin{DoxyCompactList}\small\item\em Wirtualna funkcja zwracająca kroki przepisu na podstawie indeksu, decyzji i numeru kroku. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_abstrakt_kategoria_a778f90c4b6cb4aa27625496465c8c358}\label{class_abstrakt_kategoria_a778f90c4b6cb4aa27625496465c8c358} 
+\index{AbstraktKategoria@{AbstraktKategoria}!wyswietlCiekawostki@{wyswietlCiekawostki}}
+\index{wyswietlCiekawostki@{wyswietlCiekawostki}!AbstraktKategoria@{AbstraktKategoria}}
+\doxysubsubsection{\texorpdfstring{wyswietlCiekawostki()}{wyswietlCiekawostki()}}
+{\footnotesize\ttfamily virtual string Abstrakt\+Kategoria\+::wyswietl\+Ciekawostki (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Wirtualna funkcja zwracająca ciekawostki o przepisie na podstawie indeksu. 
+
+Każda dziedzicząca klasa powinna dostarczyć własną implementację.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks Indeks przepisu.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string
+\end{DoxyReturn}
+Zwraca ciąg znaków zawierający ciekawostki o przepisie. 
+
+Implemented in \mbox{\hyperlink{class_kolacja_a733a15c45a39784f3bcc0b8bcd77e7e6}{Kolacja}}, \mbox{\hyperlink{class_obiad_ad93a890a683ca89de97b91dd5225bed7}{Obiad}}, and \mbox{\hyperlink{class_sniadanie_a1680c14d2362506d96fc07c89123ca17}{Sniadanie}}.
+
+\Hypertarget{class_abstrakt_kategoria_ad25c2d0d9e1b64c17649e6f384b76554}\label{class_abstrakt_kategoria_ad25c2d0d9e1b64c17649e6f384b76554} 
+\index{AbstraktKategoria@{AbstraktKategoria}!wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}}
+\index{wyswietlKrokiPrzepisu@{wyswietlKrokiPrzepisu}!AbstraktKategoria@{AbstraktKategoria}}
+\doxysubsubsection{\texorpdfstring{wyswietlKrokiPrzepisu()}{wyswietlKrokiPrzepisu()}}
+{\footnotesize\ttfamily virtual string Abstrakt\+Kategoria\+::wyswietl\+Kroki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{string}]{decyzja,  }\item[{int}]{numerkroku }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Wirtualna funkcja zwracająca kroki przepisu na podstawie indeksu, decyzji i numeru kroku. 
+
+Każda dziedzicząca klasa powinna dostarczyć własną implementację.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks \\
+\hline
+{\em string} & decyzja \\
+\hline
+{\em int} & numerkroku\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string
+\end{DoxyReturn}
+Zwraca ciąg znaków zawierający kroki przygotowania przepisu. 
+
+Implemented in \mbox{\hyperlink{class_kolacja_ab4f31f3bd419113008546d4e2d1c3f54}{Kolacja}}, \mbox{\hyperlink{class_obiad_a0f355b6b67584517a17ca42a6af6f223}{Obiad}}, and \mbox{\hyperlink{class_sniadanie_a6dbea50fac1905728946f0d9a9cdc3d9}{Sniadanie}}.
+
+\Hypertarget{class_abstrakt_kategoria_aabc626df6f2443d4b8e514b5e08252c5}\label{class_abstrakt_kategoria_aabc626df6f2443d4b8e514b5e08252c5} 
+\index{AbstraktKategoria@{AbstraktKategoria}!wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}}
+\index{wyswietlNazwePrzepisu@{wyswietlNazwePrzepisu}!AbstraktKategoria@{AbstraktKategoria}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwePrzepisu()}{wyswietlNazwePrzepisu()}}
+{\footnotesize\ttfamily virtual string Abstrakt\+Kategoria\+::wyswietl\+Nazwe\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Wirtualna funkcja zwracająca nazwę przepisu na podstawie indeksu. 
+
+Każda dziedzicząca klasa powinna dostarczyć własną implementację.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string
+\end{DoxyReturn}
+Zwraca nazwe przepisu 
+
+Implemented in \mbox{\hyperlink{class_kolacja_a89adbf9615031ca947be9c17d9b674d2}{Kolacja}}, \mbox{\hyperlink{class_obiad_ad5da494133f0f7b8af371fe22bd9a0f1}{Obiad}}, and \mbox{\hyperlink{class_sniadanie_ac0e8cc33c953aafd60c6d50a615cef95}{Sniadanie}}.
+
+\Hypertarget{class_abstrakt_kategoria_aef6f11fbdd415c79bbbd74cc53096ae2}\label{class_abstrakt_kategoria_aef6f11fbdd415c79bbbd74cc53096ae2} 
+\index{AbstraktKategoria@{AbstraktKategoria}!wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}}
+\index{wyswietlNazwyPrzepisow@{wyswietlNazwyPrzepisow}!AbstraktKategoria@{AbstraktKategoria}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzepisow()}{wyswietlNazwyPrzepisow()}}
+{\footnotesize\ttfamily virtual string Abstrakt\+Kategoria\+::wyswietl\+Nazwy\+Przepisow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Wirtualna funkcja zwracająca nazwy przepisów. 
+
+Każda dziedzicząca klasa powinna dostarczyć własną implementację.
+
+\begin{DoxyReturn}{Returns}
+string
+\end{DoxyReturn}
+Zwraca ciąg znaków zawierający nazwy przepisów. 
+
+Implemented in \mbox{\hyperlink{class_kolacja_a2fbed835d3a5d2876dcbb3906188f3c4}{Kolacja}}, \mbox{\hyperlink{class_obiad_ac63b554bb20d6b803d188e3812522543}{Obiad}}, and \mbox{\hyperlink{class_sniadanie_adeb9152b98a3eb430a3b26732a6ff938}{Sniadanie}}.
+
+\Hypertarget{class_abstrakt_kategoria_ac3c95277ae4341cd906d9574f5e031c1}\label{class_abstrakt_kategoria_ac3c95277ae4341cd906d9574f5e031c1} 
+\index{AbstraktKategoria@{AbstraktKategoria}!wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}}
+\index{wyswietlNazwyPrzypraw@{wyswietlNazwyPrzypraw}!AbstraktKategoria@{AbstraktKategoria}}
+\doxysubsubsection{\texorpdfstring{wyswietlNazwyPrzypraw()}{wyswietlNazwyPrzypraw()}}
+{\footnotesize\ttfamily virtual string Abstrakt\+Kategoria\+::wyswietl\+Nazwy\+Przypraw (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Wirtualna funkcja zwracająca nazwy przypraw przepisu na podstawie indeksu. 
+
+Każda dziedzicząca klasa powinna dostarczyć własną implementację.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ciąg znaków zawierający nazwy przypraw przepisu.
+\end{DoxyReturn}
+Zwraca ciąg znaków zawierający nazwy przypraw przepisu. 
+
+Implemented in \mbox{\hyperlink{class_kolacja_ac1b703f67a918ca4fd46d84ec85cc7ec}{Kolacja}}, \mbox{\hyperlink{class_obiad_a620381e466da928e8f50f7c8ea669691}{Obiad}}, and \mbox{\hyperlink{class_sniadanie_a00a7878631f33b0de94023c2162f2f95}{Sniadanie}}.
+
+\Hypertarget{class_abstrakt_kategoria_a51324407194d35643a475f5de877dd44}\label{class_abstrakt_kategoria_a51324407194d35643a475f5de877dd44} 
+\index{AbstraktKategoria@{AbstraktKategoria}!wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}}
+\index{wyswietlOcenyPrzepisu@{wyswietlOcenyPrzepisu}!AbstraktKategoria@{AbstraktKategoria}}
+\doxysubsubsection{\texorpdfstring{wyswietlOcenyPrzepisu()}{wyswietlOcenyPrzepisu()}}
+{\footnotesize\ttfamily virtual string Abstrakt\+Kategoria\+::wyswietl\+Oceny\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks,  }\item[{int}]{wybor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Wirtualna funkcja zwracająca oceny przepisu na podstawie indeksu i wyboru. 
+
+Każda dziedzicząca klasa powinna dostarczyć własną implementację.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks \\
+\hline
+{\em int} & wybor Wybór, który może wpłynąć na sposób obliczenia oceny.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string
+\end{DoxyReturn}
+Zwraca ciąg znaków zawierający oceny przepisu. 
+
+Implemented in \mbox{\hyperlink{class_kolacja_a40e4a357812da15bf84328324366a3ef}{Kolacja}}, \mbox{\hyperlink{class_obiad_ae65b87a84b11e8ef2d49d189bdc8689d}{Obiad}}, and \mbox{\hyperlink{class_sniadanie_af8e21600134672c0efd41072f694ad1f}{Sniadanie}}.
+
+\Hypertarget{class_abstrakt_kategoria_a3422ee3609f9e86de45bcbff714d8fca}\label{class_abstrakt_kategoria_a3422ee3609f9e86de45bcbff714d8fca} 
+\index{AbstraktKategoria@{AbstraktKategoria}!wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}}
+\index{wyswietlSkladnikiPrzepisu@{wyswietlSkladnikiPrzepisu}!AbstraktKategoria@{AbstraktKategoria}}
+\doxysubsubsection{\texorpdfstring{wyswietlSkladnikiPrzepisu()}{wyswietlSkladnikiPrzepisu()}}
+{\footnotesize\ttfamily virtual string Abstrakt\+Kategoria\+::wyswietl\+Skladniki\+Przepisu (\begin{DoxyParamCaption}\item[{int}]{indeks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Wirtualna funkcja zwracająca składniki przepisu na podstawie indeksu. 
+
+Każda dziedzicząca klasa powinna dostarczyć własną implementację.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & indeks\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string
+\end{DoxyReturn}
+Zwraca ciąg znaków zawierający składniki przepisu. 
+
+Implemented in \mbox{\hyperlink{class_kolacja_a2ddee5b06da508f142a7c883eddf66ae}{Kolacja}}, \mbox{\hyperlink{class_obiad_a727b7977c8412fdcc1a16bb8f62c9fed}{Obiad}}, and \mbox{\hyperlink{class_sniadanie_a353b0ad4f7425ab421e9671f8376ec0c}{Sniadanie}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Abstrakt\+Kategoria.\+h\end{DoxyCompactItemize}
