@@ -13,7 +13,7 @@ public class SecurityConfig {
         http
                 .csrf().disable()
                 .authorizeHttpRequests()
-                .anyRequest().permitAll(); // Pozwól na dostęp do wszystkich zasobów bez uwierzytelniania
+                .anyRequest().permitAll();
         return http.build();
     }
 }
