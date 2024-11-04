@@ -1,0 +1,1 @@
+OsobaFizyczna|123|John|Doe

@@ -1,0 +1,14 @@
+# ninja log v5
+319	355	1706518077423786432	Projekt	6b7584c62096ac99
+2	273	1706486488387592700	CMakeFiles/Projekt.dir/Wizytowka.cpp.o	313c953ae6bef656
+3	297	1706486488411128792	CMakeFiles/Projekt.dir/Osoba_fizyczna.cpp.o	bd258adda9b40799
+3	345	1706486488460031272	CMakeFiles/Projekt.dir/ListaWizytowek.cpp.o	bbdee1ec90912440
+3	296	1706486488409904026	CMakeFiles/Projekt.dir/Firma.cpp.o	a14c2ab68dc3f00f
+2	319	1706518077386952900	CMakeFiles/Projekt.dir/main.cpp.o	98b1031ce4fbf86
+0	62	1730727735603956583	build.ninja	68e09c3a0000b40f
+1	251	1730727737695036601	CMakeFiles/Projekt.dir/Wizytowka.cpp.o	e0abc7717e500285
+1	253	1730727737697959564	CMakeFiles/Projekt.dir/main.cpp.o	e9e2f06093912854
+1	265	1730727737710256581	CMakeFiles/Projekt.dir/Osoba_fizyczna.cpp.o	369ea7d50fb6ae13
+1	273	1730727737717891551	CMakeFiles/Projekt.dir/Firma.cpp.o	e03b397f8ed4c173
+2	311	1730727737756067105	CMakeFiles/Projekt.dir/ListaWizytowek.cpp.o	bb4193ee1aa13ce9
+311	348	1730727737794373076	Projekt	9430170672d6c509
